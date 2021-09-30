@@ -1,0 +1,6 @@
+for intro, have player fall from long room with title 
+
+- create counter to guarentee powerups after awhile
+
+- switch ball collision code to collide beam event, take out of
+  collision parent, check to make sure its opaque 

@@ -1,0 +1,32 @@
+
+====== general ======
+
+- wasd controls-------------------------------------------(DONE)
+- leaf isnt useful----------------------------------------(DONE)
+- corner paddle is hard to hit							  
+- ball goes straight up when jumping maybe??--------------(no...)	  
+- impossible ball setups 								  
+- fire shouldnt wear off when hitting walls (or beams??)--(DONE)
+- FUCK LEAF-----------------------------------------------(DONE)										  
+- all balls should be white-------------------------------(DONE)
+- water should have darker outline						  
+- okay leaf is so bad-------------------------------------(DONE)
+- fire sprite looks weird
+
+====== bugs ======
+- leaf gets ball stuck------------------------------------(DONE)
+- balls go straight down for some reason?-----------------(DONE)
+- any key restarts game with scorecard--------------------(DONE)
+- speedup doesnt work-------------------------------------(DONE)
+- powerups instantly go down when hit by ball
+
+====== exploits ======
+- if a new ball spawns, if you don't jump, it doesnt move-(DONE)
+
+====== ideas ======
+- maybe leaf acts as a trampoline (wert)------------------(DONE)
+- super jump (doc)
+- health cooldown (rad)-----------------------------------(DONE)
+^ actually docs now
+- highscore (me :) )
+- spirit powerup

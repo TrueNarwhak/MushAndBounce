@@ -1,0 +1,7 @@
+
+- lower time between speedups-----------------------------------(DONE)
+- balls get stuck when leafs--
+- ball limit
+- hearts are more common 
+
+- ping pong multiplayer 
