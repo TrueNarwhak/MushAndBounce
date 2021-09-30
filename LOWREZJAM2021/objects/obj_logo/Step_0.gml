@@ -1,7 +1,9 @@
 
  // falling
-if (yspeed < terminal_velocity) {
-	yspeed += gravity_value;
+if (!act_as_header) { 
+	if (yspeed < terminal_velocity) {
+		yspeed += gravity_value;
+	}
 }
 
  // bouncing

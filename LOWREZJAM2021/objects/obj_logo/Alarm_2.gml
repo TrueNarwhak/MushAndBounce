@@ -1,3 +1,5 @@
 /// @description Goto next room
 
-room_goto(rm_0);
+if (!show_title_as_header) {
+	room_goto(rm_0);
+}
