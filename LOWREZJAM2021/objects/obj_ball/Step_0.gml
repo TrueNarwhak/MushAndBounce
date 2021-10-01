@@ -1,5 +1,11 @@
 
-
+ // reseting ball after leaf
+function reset_ball() {
+	if (yspeed == -up_speed and !obj_player.powered) {
+		xspeed = -_speed;
+		yspeed = -_speed;
+	}	
+}
 
  // physics
 // colliding with beams and terrain 
@@ -10,6 +16,8 @@ if (place_meeting(x+xspeed, y, prnt_ball_collider) || place_meeting(x-xspeed, y,
 
 	
 	serve = false;
+	
+	reset_ball();
 }
  
 if (place_meeting(x, y+yspeed, prnt_ball_collider) || place_meeting(x, y+yspeed, prnt_ball_collider)) {
@@ -18,6 +26,8 @@ if (place_meeting(x, y+yspeed, prnt_ball_collider) || place_meeting(x, y+yspeed,
 	instance_create_layer(x, y, "Entities", hb_type);
 	
 	serve = false;
+	
+	reset_ball();
 }
 
 // colliding with player
@@ -38,11 +48,7 @@ if (place_meeting(x+xspeed, y, obj_player) || place_meeting(x-xspeed, y, obj_pla
 	
 	serve = false;
 	
-	 // very good and totally efficant 
-	if (yspeed == -up_speed) {
-		xspeed = -_speed;
-		yspeed = -_speed;
-	}
+	reset_ball();
 }
 
 if (place_meeting(x, y+yspeed, obj_player) || place_meeting(x, y-yspeed, obj_player)) {
@@ -62,11 +68,7 @@ if (place_meeting(x, y+yspeed, obj_player) || place_meeting(x, y-yspeed, obj_pla
 	
 	serve = false;
 	
-	 // very good and totally efficant 
-	if (yspeed == -up_speed) {
-		xspeed = -_speed;
-		yspeed = -_speed;
-	}
+	reset_ball();
 }
 
 if (place_meeting(x+xspeed, y, obj_protector_leaves) || place_meeting(x-xspeed, y, obj_protector_leaves) ||
