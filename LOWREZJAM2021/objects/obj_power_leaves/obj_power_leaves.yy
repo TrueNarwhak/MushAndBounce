@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "prnt_pause",
+    "path": "objects/prnt_pause/prnt_pause.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

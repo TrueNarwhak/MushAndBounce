@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prnt_ball_collider",
-    "path": "objects/prnt_ball_collider/prnt_ball_collider.yy",
+    "name": "prnt_pause",
+    "path": "objects/prnt_pause/prnt_pause.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
