@@ -44,6 +44,7 @@
     {"id":{"name":"prnt_ball_collider","path":"objects/prnt_ball_collider/prnt_ball_collider.yy",},"order":0,},
     {"id":{"name":"spr_twinkle_fx","path":"sprites/spr_twinkle_fx/spr_twinkle_fx.yy",},"order":14,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"prnt_pause","path":"objects/prnt_pause/prnt_pause.yy",},"order":1,},
     {"id":{"name":"fnt_FFFFOWRWARD","path":"fonts/fnt_FFFFOWRWARD/fnt_FFFFOWRWARD.yy",},"order":1,},
     {"id":{"name":"spr_bouncy_water","path":"sprites/spr_bouncy_water/spr_bouncy_water.yy",},"order":13,},
     {"id":{"name":"spr_leaves","path":"sprites/spr_leaves/spr_leaves.yy",},"order":5,},

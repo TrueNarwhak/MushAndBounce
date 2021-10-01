@@ -54,6 +54,16 @@ if (beam_count <= 0 and can_speed_up == true and lines_cleared%7 == 0) {
 	can_speed_up = true;
 }
 
+ // pause
+if (keyboard_check_pressed(vk_escape)) {
+	paused ^= 1;	
+}
+
+if (paused) {
+	instance_deactivate_object(prnt_pause);
+} else {
+	instance_activate_object(prnt_pause);
+}
 
  
 //print(lines_cleared%5);

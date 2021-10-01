@@ -30,3 +30,5 @@ ball_speed_up   = 1.25;
 current_speed   = 0; // visual not mechanical 
 
 paused = false;
+pause_text_location_x = 22;
+pause_text_location_y = 18;
