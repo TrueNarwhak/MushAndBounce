@@ -11,7 +11,9 @@ globalvar flag_has_lost_once;
 globalvar current_speed;
 
 globalvar paused;
-	
+
+
+ // game loop	
 ball_count = instance_number(obj_ball);
 beam_count = instance_number(obj_beam);
 
@@ -29,6 +31,8 @@ player_speed_up = 1.6;
 ball_speed_up   = 1.25;
 current_speed   = 0; // visual not mechanical 
 
+ // pause
 paused = false;
 pause_text_location_x = 22;
 pause_text_location_y = 18;
+

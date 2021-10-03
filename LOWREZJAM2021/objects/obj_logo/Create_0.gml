@@ -1,7 +1,7 @@
 globalvar should_debug_notification;
 
  // header visual
-show_title_as_header = false;
+show_title_as_header = true;
 act_as_header = false;
 header_location = 17;
 header_speed = 0.1;
