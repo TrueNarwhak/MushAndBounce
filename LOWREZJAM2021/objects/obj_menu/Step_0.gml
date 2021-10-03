@@ -31,5 +31,17 @@ c[3] = c_white;
 c[current_selection] = c_yellow;
 
  // entering selection
+if (key_enter) {
+	if (current_selection = 0) {         // PLAY
+		room_goto_next();
+	} else if (current_selection = 1) {  // INSTRUCTIONS
+		
+	} else if (current_selection = 2) {  // CREDITS
+		
+	} else if (current_selection = 3) {  // QUIT
+		game_end();
+	}
+	
+}
 
 print(current_selection);
