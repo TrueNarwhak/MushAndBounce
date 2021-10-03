@@ -30,5 +30,8 @@ if (should_draw_credits) {
 	draw_set_halign(fa_center);
 	draw_set_font(fnt_FFFFOWRWARD);
 	
-	draw_text_transformed(popup_x, popup_y, "BITCH: 2\nPRESS ESC TO EXIT", text_scale,text_scale, 0);
+	draw_text_transformed(popup_x, popup_y-6, "DEVELOPER: TRUE NARWHAK", 0.17,0.17, 0);
+	draw_text_transformed(popup_x, popup_y-3, "MADE WITH: \nGameMaker Studio 2 by YoYoGames\nPear36 palette by PineTreePizza", 0.14,0.14, 0);
+	draw_text_transformed(popup_x, popup_y+4, "PLAY TESTERS:", 0.14,0.14, 0);
+	draw_text_transformed(popup_x, popup_y+6, "Volbo_Dugs, Sabubotto, Argonautical, \nDoctorpus, Radical Tourism", 0.1,0.1, 0);
 }

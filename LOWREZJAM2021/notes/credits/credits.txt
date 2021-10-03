@@ -1,2 +1,25 @@
 https://lospec.com/palette-list/pear36
 FFF Forward
+
+play testers: 
+ - Doctorpus
+ - Sab
+ - Argonaughtical
+ - Sharkicide
+ - Snailjoe
+ - Radical Tourism
+ 
+---------------------------------
+
+Developer: True Narwhak
+
+Made with:
+ - GameMaker Studio 2 by YoYoGames
+ - Pear36 palette by PineTreePizza
+ 
+With feedback from: 
+ - Volbo_Dugs
+ - Sabubotto
+ - Argonautical 
+ - Doctorpus
+ - Radical Tourism
