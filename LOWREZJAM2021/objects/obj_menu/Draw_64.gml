@@ -18,7 +18,8 @@ if (should_draw_instructions) {
 	draw_set_halign(fa_center);
 	draw_set_font(fnt_FFFFOWRWARD);
 	
-	draw_text_transformed(popup_x, popup_y, "BITCH\nPRESS ESC TO EXIT", text_scale,text_scale, 0);
+	draw_text_transformed(popup_x, popup_y-6, "Use the arrow keys or \nWSAD to move", 0.2,0.2, 0);
+	draw_text_transformed(popup_x, popup_y+0.3, "Try to hit the ball(s) \nand as many powerups \nas you can!", 0.2,0.2, 0);
 }
 
 if (should_draw_credits) {
