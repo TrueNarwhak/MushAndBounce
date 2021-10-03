@@ -33,15 +33,37 @@ c[current_selection] = c_yellow;
  // entering selection
 if (key_enter) {
 	if (current_selection = 0) {         // PLAY
+		
 		room_goto_next();
+		
 	} else if (current_selection = 1) {  // INSTRUCTIONS
+		
+		should_draw_instructions = true;
 		
 	} else if (current_selection = 2) {  // CREDITS
 		
+		should_draw_credits = true;
+		
 	} else if (current_selection = 3) {  // QUIT
+		
 		game_end();
+		
 	}
 	
+}
+
+if (should_draw_instructions and keyboard_check_pressed(vk_escape)) {
+	should_draw_instructions = false;
+	
+	popup_x = 48;
+	popup_y = 80;
+}
+
+if (should_draw_credits and keyboard_check_pressed(vk_escape)) {
+	should_draw_credits = false;
+	
+	popup_x = 48;
+	popup_y = 80;
 }
 
 print(current_selection);
