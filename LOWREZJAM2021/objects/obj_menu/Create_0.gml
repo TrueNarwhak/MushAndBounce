@@ -22,8 +22,11 @@ menu_main = [
 current_selection = 0;
 c = [c_white, c_white, c_white, c_white];
 
+text_alpha = 0;
+fade_speed = 0.07;
+should_fade_in = false;
+
 text_scale = 0.3;
-seperation = 10;
 
 should_draw_instructions = false;
 should_draw_credits = false;
@@ -34,3 +37,5 @@ popup_movespeed = 0.09;
 
 popup_x = 48;
 popup_y = 80;
+
+alarm[0] = room_speed+140; // Fade in

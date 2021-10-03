@@ -66,4 +66,7 @@ if (should_draw_credits and keyboard_check_pressed(vk_escape)) {
 	popup_y = 80;
 }
 
-print(current_selection);
+ // fading 
+if (should_fade_in) {
+	text_alpha = lerp(text_alpha, 1, fade_speed);
+}
