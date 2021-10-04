@@ -18,6 +18,8 @@ if (place_meeting(x+xspeed, y, prnt_ball_collider) || place_meeting(x-xspeed, y,
 	serve = false;
 	
 	reset_ball();
+	
+	play_bounce_sound();
 }
  
 if (place_meeting(x, y+yspeed, prnt_ball_collider) || place_meeting(x, y+yspeed, prnt_ball_collider)) {
@@ -28,6 +30,8 @@ if (place_meeting(x, y+yspeed, prnt_ball_collider) || place_meeting(x, y+yspeed,
 	serve = false;
 	
 	reset_ball();
+	
+	play_bounce_sound();
 }
 
 // colliding with player
