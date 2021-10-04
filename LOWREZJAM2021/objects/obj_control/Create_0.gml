@@ -26,6 +26,7 @@ flag_has_lost_once = false;
 debug = should_debug_notification;
 can_create = true;
 can_speed_up = true;
+ball_limit = 4;
 
 player_speed_up = 1.6;
 ball_speed_up   = 1.25;

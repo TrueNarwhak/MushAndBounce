@@ -1,4 +1,4 @@
-draw_self()
+draw_self();
 
  // score
 draw_set_font(fnt_FFFFOWRWARD);

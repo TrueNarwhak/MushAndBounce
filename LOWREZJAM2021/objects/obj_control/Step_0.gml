@@ -32,8 +32,10 @@ if (_health <= 0 && instance_number(obj_score_card) == 0) {
 
  // creating balls
 if (beam_count <= 0 and can_create == true and lines_cleared%3 == 0) {
-	instance_create_layer(22, 43, "Entities", obj_ball);
-	can_create = false;
+	if (ball_count < ball_limit) {
+		instance_create_layer(22, 43, "Entities", obj_ball);
+		can_create = false;
+	}
 }
 
  // speed up
@@ -49,6 +51,8 @@ if (beam_count <= 0 and can_speed_up == true and lines_cleared%7 == 0) {
 	
 	can_speed_up = false;
 	current_speed += 1;
+	
+	ball_limit++;
 	
 } else {
 	can_speed_up = true;
