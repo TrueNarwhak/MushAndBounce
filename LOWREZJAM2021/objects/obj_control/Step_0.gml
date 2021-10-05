@@ -43,6 +43,7 @@ if (beam_count <= 0 and can_speed_up == true and lines_cleared%7 == 0) {
 	instance_create_layer(room_width/2,room_height/2,"GUI_Instances", obj_speedup);
 	
 	obj_ball._speed *= ball_speed_up;
+	obj_ball.up_speed *= ball_speed_up;
 	
 	obj_player.move_speed *= player_speed_up;
 	obj_player.revert_speed *= player_speed_up;

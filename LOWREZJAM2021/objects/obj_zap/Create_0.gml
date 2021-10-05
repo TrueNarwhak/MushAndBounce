@@ -1,9 +1,12 @@
 _speed  = 0.4;
+sound_player = false;
 
 if (x - obj_player.x < 0) { // if on left
 	xspeed = -_speed;
+	sound_player = true;
 } else {
 	xspeed = _speed;
+	sound_player = false;
 }
 yspeed  = -_speed;
 

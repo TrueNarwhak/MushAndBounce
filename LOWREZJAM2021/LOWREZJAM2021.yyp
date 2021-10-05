@@ -43,6 +43,7 @@
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":1,},
     {"id":{"name":"sound effect ideas","path":"notes/sound effect ideas/sound effect ideas.yy",},"order":2,},
     {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},"order":1,},
+    {"id":{"name":"snd_thunder_hit","path":"sounds/snd_thunder_hit/snd_thunder_hit.yy",},"order":3,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":1,},
     {"id":{"name":"snd_lose_health_0","path":"sounds/snd_lose_health_0/snd_lose_health_0.yy",},"order":1,},
     {"id":{"name":"highscores","path":"scripts/highscores/highscores.yy",},"order":4,},

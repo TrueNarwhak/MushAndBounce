@@ -118,3 +118,5 @@ if (on_fire) {
 	_sprite = spr_ball;
 	hb_type = obj_ball_hb;
 }
+
+//print(string(id) + " " + "Speed: " + string(_speed) + "Xspeed: " + string(xspeed) + "Yspeed: " + string(yspeed));
