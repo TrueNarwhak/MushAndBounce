@@ -1,4 +1,6 @@
 
+key_fullscreen = keyboard_check_pressed(vk_alt);
+
  // setting the counters
 ball_count = instance_number(obj_ball);
 beam_count = instance_number(obj_beam);
@@ -68,6 +70,11 @@ if (paused) {
 	instance_deactivate_object(prnt_pause);
 } else {
 	instance_activate_object(prnt_pause);
+}
+
+ // full screen
+if (key_fullscreen) {
+	window_set_fullscreen(true);
 }
 
  
