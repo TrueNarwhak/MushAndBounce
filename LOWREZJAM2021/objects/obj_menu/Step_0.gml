@@ -9,18 +9,20 @@ select = -key_up + key_down;
 
 
  // selecting menu
-if (key_down) {
+if (key_down and should_fade_in) {
 	if (current_selection >= 3) {
 		current_selection = 0-1;
 	}
 	current_selection++;
+	play_bounce_sound();
 }
 
-if (key_up) {
+if (key_up and should_fade_in) {
 	if (current_selection <= 0) {
 		current_selection = 3+1;
 	}
 	current_selection--;
+	play_bounce_sound();
 }
 
 c[0] = c_white;
@@ -31,7 +33,7 @@ c[3] = c_white;
 c[current_selection] = c_yellow;
 
  // entering selection
-if (key_enter) {
+if (key_enter and should_fade_in) {
 	if (current_selection = 0) {         // PLAY
 		
 		room_goto_next();
