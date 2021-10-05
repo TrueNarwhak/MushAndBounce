@@ -19,3 +19,14 @@ function play_step_sound() {
 	);
 	audio_play_sound(sound_effect, 1, false);
 }
+
+function play_hp_loss_sound() {
+
+	randomize();
+	var sound_effect = choose(
+		snd_lose_health_0,
+		snd_lose_health_1
+	);
+	audio_play_sound(sound_effect, 1, false);
+
+}

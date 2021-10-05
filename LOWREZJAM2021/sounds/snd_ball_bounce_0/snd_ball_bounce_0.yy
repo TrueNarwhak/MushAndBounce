@@ -13,8 +13,8 @@
   "soundFile": "snd_ball_bounce_0.ogg",
   "duration": 0.249592,
   "parent": {
-    "name": "bounce",
-    "path": "folders/art/sounds/sfx/bounce.yy",
+    "name": "ball bounce",
+    "path": "folders/art/sounds/sfx/ball bounce.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_ball_bounce_0",

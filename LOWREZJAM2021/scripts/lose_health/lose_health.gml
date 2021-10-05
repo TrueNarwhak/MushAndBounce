@@ -6,4 +6,7 @@ function lose_health(ammount){
 	
 	 // flash
 	obj_heart.flash_alpha = 1;
+	
+	 // play sfx
+	play_hp_loss_sound();
 }

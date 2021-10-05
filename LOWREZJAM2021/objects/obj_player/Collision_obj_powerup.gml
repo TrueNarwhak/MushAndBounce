@@ -1,4 +1,7 @@
 
+
+audio_play_sound(snd_powerup_pickup, 2, false);
+
 with (other) {
 	var powerup_type = image_index;
 	instance_destroy();
