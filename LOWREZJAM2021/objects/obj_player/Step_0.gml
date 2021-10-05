@@ -82,6 +82,7 @@ y += yspeed;
 if (place_meeting(x, y+1, obj_collider) && yspeed > 0) {
 	_yscale = 0.25;
 	_xscale = 1.5;
+	audio_play_sound(snd_land, 2, false);
 }
 
  // standing

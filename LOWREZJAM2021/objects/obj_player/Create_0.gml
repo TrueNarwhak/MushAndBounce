@@ -74,3 +74,6 @@ can_create_water = false;
 can_ignite_ball = false;
 
 can_electrocute = false;
+
+ // sounds
+alarm[2] = room_speed-30; // play step sound
