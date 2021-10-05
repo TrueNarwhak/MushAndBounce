@@ -65,6 +65,7 @@
     {"id":{"name":"obj_flaming_ball_hb","path":"objects/obj_flaming_ball_hb/obj_flaming_ball_hb.yy",},"order":4,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":1,},
     {"id":{"name":"snd_step_1","path":"sounds/snd_step_1/snd_step_1.yy",},"order":0,},
+    {"id":{"name":"important","path":"sprites/important/important.yy",},"order":6,},
     {"id":{"name":"obj_power_leaves","path":"objects/obj_power_leaves/obj_power_leaves.yy",},"order":0,},
     {"id":{"name":"play_sounds","path":"scripts/play_sounds/play_sounds.yy",},"order":5,},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":20,},
