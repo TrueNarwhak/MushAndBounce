@@ -41,14 +41,17 @@ if (key_enter and should_fade_in) {
 	} else if (current_selection = 1) {  // INSTRUCTIONS
 		
 		should_draw_instructions = true;
+		play_bounce_sound();
 		
 	} else if (current_selection = 2) {  // CREDITS
 		
 		should_draw_credits = true;
+		play_bounce_sound();
 		
 	} else if (current_selection = 3) {  // QUIT
 		
 		game_end();
+		play_bounce_sound();
 		
 	}
 	
