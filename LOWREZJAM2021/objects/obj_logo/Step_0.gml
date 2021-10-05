@@ -10,6 +10,11 @@ if (!act_as_header) {
 if (place_meeting(x, y+yspeed, obj_collider)) {
 	yspeed = -bounce;
 	bounce *= bounce_decay;
+	
+	 // play sound
+	if (bounce > 0.06) {
+		audio_play_sound(snd_land, 1, false);
+	}
 }
 
  // assignment
