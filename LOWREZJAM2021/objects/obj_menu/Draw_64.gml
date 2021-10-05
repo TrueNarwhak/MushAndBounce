@@ -18,12 +18,14 @@ if (should_draw_instructions) {
 	draw_set_halign(fa_center);
 	draw_set_font(fnt_FFFFOWRWARD);
 	
-	draw_text_transformed(popup_x, popup_y-6, "Use the arrow keys or \nWSAD to move", 0.2,0.2, 0);
-	draw_text_transformed(popup_x, popup_y+0.3, "Try to hit the ball(s) \nand as many powerups \nas you can!", 0.2,0.2, 0);
+	draw_text_transformed(popup_x, popup_y-6, "Use the arrow keys or \nWSAD to move", 0.18,0.18, 0);
+	draw_text_transformed(popup_x, popup_y+0.3, "Try to hit the ball(s) \nand as many powerups \nas you can!", 0.18,0.18, 0);
 }
 
 if (should_draw_credits) {
+	var second_popup_y = popup_y+23;
 	draw_sprite(spr_score_card, 0, popup_x, popup_y);
+	draw_sprite(spr_score_card, 0, popup_x, second_popup_y);
 	
 	popup_x = lerp(popup_x, popup_x, popup_movespeed);
 	popup_y = lerp(popup_y, popup_destination_y, popup_movespeed);
@@ -32,7 +34,9 @@ if (should_draw_credits) {
 	draw_set_font(fnt_FFFFOWRWARD);
 	
 	draw_text_transformed(popup_x, popup_y-6, "DEVELOPER: TRUE NARWHAK", 0.17,0.17, 0);
-	draw_text_transformed(popup_x, popup_y-3, "MADE WITH: \nGameMaker Studio 2 by YoYoGames\nPear36 palette by PineTreePizza", 0.14,0.14, 0);
-	draw_text_transformed(popup_x, popup_y+4, "PLAY TESTERS:", 0.14,0.14, 0);
-	draw_text_transformed(popup_x, popup_y+6, "Volbo_Dugs, Sabubotto, Argonautical, \nDoctorpus, Radical Tourism", 0.1,0.1, 0);
+	draw_text_transformed(popup_x, popup_y-2, "MADE WITH: \nGameMaker Studio 2 by YoYoGames\nPear36 palette by PineTreePizza\nImpact Sounds by Kenny", 0.14,0.14, 0);
+
+	draw_text_transformed(popup_x, second_popup_y-4, "PLAY TESTERS:", 0.2,0.2, 0);
+	draw_text_transformed(popup_x, second_popup_y, "Volbo_Dugs, Sabubotto, \nArgonautical, Doctorpus, \nRadical Tourism, Sharkicide", 0.15,0.15, 0);
+	
 }
