@@ -1,2 +1,4 @@
 
-draw_self();
+if (should_draw) {
+	draw_self();
+}

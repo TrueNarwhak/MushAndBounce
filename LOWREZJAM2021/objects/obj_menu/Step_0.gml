@@ -3,8 +3,6 @@ key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_w);
 key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(vk_s);
 key_enter = keyboard_check_pressed(vk_z) || keyboard_check_pressed(vk_x) || keyboard_check_pressed(vk_enter);
 
-select = -key_up + key_down;
-
 // -----------------------------------
 
 

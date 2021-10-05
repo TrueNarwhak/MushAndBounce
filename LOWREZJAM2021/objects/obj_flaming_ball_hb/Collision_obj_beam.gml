@@ -1,4 +1,4 @@
-
+should_draw = true;
 
 with (other) {
 	if (other.image_alpha <= 1) {

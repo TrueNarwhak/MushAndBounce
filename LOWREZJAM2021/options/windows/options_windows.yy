@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Mush and Bounce",
   "option_windows_executable_name": "mushandbounce.exe",
-  "option_windows_version": "0.2.0.0",
+  "option_windows_version": "0.3.0.0",
   "option_windows_company_info": "YoYo Games Ltd",
   "option_windows_product_info": "Mush and Bounce",
   "option_windows_copyright_info": "",

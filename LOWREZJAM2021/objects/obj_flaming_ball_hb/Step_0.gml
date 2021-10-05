@@ -8,3 +8,7 @@ if (fade_out) {
 if (image_alpha < 0.1) {
 	instance_destroy();
 }
+
+if (place_meeting(x,y,prnt_ball_collider)) {
+	should_draw = true;
+}
