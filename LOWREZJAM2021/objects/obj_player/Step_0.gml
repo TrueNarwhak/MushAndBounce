@@ -115,11 +115,15 @@ text_yscale = lerp(text_yscale, 0.5, 0.1);
  // debug keystroke
 if (debug) {
 	if (keyboard_check_pressed(vk_f)) {
-		//lose_health(1);
+		lose_health(1);
 		//instance_create_layer(x,y,"Entities", obj_power_leaves);
 		//instance_create_layer(22,40,"Entities", obj_ball);
 		//instance_create_layer(22,40,"Entities", obj_powerup);
 		//instance_create_layer(x,y,"FX", fx_twinkle);
+		//instance_create_layer(23,18,"Entities", obj_powerup);
+		//move_speed      /= 6;
+		//obj_ball._speed /= 6;
+		instance_create_layer(x,y, "Entities", obj_speedup);
 	}
 	
 	if (keyboard_check_pressed(vk_r)) {
