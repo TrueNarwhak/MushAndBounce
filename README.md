@@ -3,7 +3,7 @@ ___
 
 Welcome to the offcial repository of Mush and Bounce! Mush and bounce is a breakout-out like game with a twist!
 
-If youre looking to play the game, you can download it on *[true-narwhak.itch.io](https://true-narwhak.itch.io/)*
+If youre looking to play the game, you can download it on *[true-narwhak.itch.io/mush-and-bounce](https://true-narwhak.itch.io/mush-and-bounce)*
 
 
 ## Contributing
