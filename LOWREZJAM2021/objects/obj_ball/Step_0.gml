@@ -32,7 +32,7 @@ if (place_meeting(x, y+yspeed, prnt_ball_collider) || place_meeting(x, y+yspeed,
 	reset_ball();
 	
 	play_bounce_sound();
-}
+}	
 
 // colliding with player
 if (place_meeting(x+xspeed, y, obj_player) || place_meeting(x-xspeed, y, obj_player)) {

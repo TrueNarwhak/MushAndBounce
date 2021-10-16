@@ -1,6 +1,6 @@
 {
   "option_linux_display_name": "Mush and Bounce",
-  "option_linux_version": "0.3.0",
+  "option_linux_version": "1.0.0",
   "option_linux_maintainer_email": "",
   "option_linux_homepage": "http://www.yoyogames.com",
   "option_linux_short_desc": "",
