@@ -29,6 +29,7 @@ highscore_load();
 _image_angle  = 0; // to aviod rotating sprite mask
 _xscale       = 1;
 _yscale       = 1;
+_alpha        = 1;
 
 text_image_angle  = 0; 
 text_xscale       = 0.5;

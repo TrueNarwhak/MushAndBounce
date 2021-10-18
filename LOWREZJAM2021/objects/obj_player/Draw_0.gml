@@ -7,7 +7,7 @@ draw_sprite_ext(
 	_yscale, 
 	_image_angle, 
 	c_white, 
-	1
+	_alpha
 );
 
 draw_hitbox();
